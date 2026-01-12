@@ -1,39 +1,51 @@
-撒大大大大Skip to content
-Navigation Menu
-austin22212
-myajhgdaui2
+# Markdown 常用格式示例
 
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-myajhgdaui2
-/
-README.md
-in
-main
+## 1. 标题与段落
 
-Edit
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
 
-Preview
-Indent mode
+这是**一个段落**，包含一些*强调*的文字。  
+这是新的一行，与上一行之间只有一个换行。
 
-Spaces
-Indent size
+这是另一个段落，与上面有空行分隔。
 
-2
-Line wrap mode
+---
 
-No wrap
-Editing README.md file contents
-1
-撒大大大大
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-未选择文件
-Attach files by dragging & dropping, selecting or pasting them.
+## 2. 文本样式
+
+- **粗体文字**：使用双星号 `**粗体**` 或双下划线 `__粗体__`
+- *斜体文字*：使用单星号 `*斜体*` 或单下划线 `_斜体_`
+- ~~删除线~~：使用双波浪线 `~~删除线~~`
+- `行内代码`：使用反引号 `` `行内代码` ``
+
+## 3. 列表
+
+### 无序列表
+- 项目一
+- 项目二
+  - 子项目 2.1
+  - 子项目 2.2
+- 项目三
+
+### 有序列表
+1. 第一项
+2. 第二项
+3. 第三项
+
+### 任务列表
+- [x] 完成任务一
+- [ ] 未完成任务二
+- [x] 完成任务三
+
+## 4. 代码块
+
+```python
+# Python 代码示例
+def hello_world():
+    print("Hello, World!")
+    
+if __name__ == "__main__":
+    hello_world()
