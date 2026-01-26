@@ -1,0 +1,9 @@
+{
+  "name": "classguru-app",
+  "private": true,
+  "scripts": {
+    "dev": "node start.js",
+    "start": "node start.js",
+    "install:deps": "npm --prefix Backend install && npm --prefix Frontend install"
+  }
+}
